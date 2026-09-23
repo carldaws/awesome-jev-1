@@ -113,6 +113,7 @@ Community-maintained clients and tools; official TypeSafe SDKs are listed above.
 - [pytest-jev](https://github.com/allebee/pytest-jev) - pytest plugin where Jev decides whether each plain-English claim about a test's text holds, and the test passes only when every claim clears 0.8 (or stays at or below 0.2 for claims that must not hold), with Choice and Score answers compared by probability.
 - [ruby_decision_model](https://github.com/obie/ruby_decision_model) - Ruby client with standard-library transport for TypeSafe and OpenRouter decision endpoints.
 - [semdecide](https://github.com/sharziki/semdecide) - Typed semantic decisions for Unix pipelines and CI.
+- [stuntd](https://github.com/bladedevoff/stuntd) - Local proxy that serves the Jev System One API from the open Laya model and, placed in front of a Jev upstream, records each Choice, Score, or Noul answer to train a per-question head; code applies a calibrated confidence threshold to decide whether the head or the upstream answers and demotes the head on drift.
 - [typesafe-go](https://github.com/zhirschtritt/typesafe-go) - Idiomatic Go SDK for the TypeSafe API.
 - [typesafe-java](https://github.com/dfa1/typesafe-java) - JDK 21+ client, modular by design, with a dedicated testkit module for unit testing callers.
 - [typesafe-mcp](https://github.com/itsmostafa/typesafe-mcp) - MCP connector that gives agents access to Jev decisions.
