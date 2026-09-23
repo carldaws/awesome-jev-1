@@ -342,3 +342,4 @@ Built something with Jev? Read [CONTRIBUTING.md](CONTRIBUTING.md) and open a pul
 ## Acknowledgements
 
 Discovery used public GitHub search, TypeSafe and provider documentation, and the related community lists above. Descriptions added in this refresh were checked against pinned project READMEs and relevant source files; the latest research notes record those sources, and the [September 19 notes](research/2026-09-19.md) preserve the preceding review. Inclusion is not an endorsement by TypeSafe AI or a claim of production readiness.
+
