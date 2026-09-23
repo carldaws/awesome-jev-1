@@ -214,6 +214,7 @@ These projects can operate real browsers or devices when enabled. Published demo
 - [n8n-nodes-typesafe-jev](https://github.com/n3ndor/n8n-nodes-typesafe-jev) - Community n8n node for asking multiple typed questions over workflow state.
 - [pg-jev](https://github.com/realZachi/pg-jev) - PostgreSQL extension for semantic questions over table rows.
 - [pg_typesafe](https://github.com/giuliosmall/pg_typesafe) - Pre-alpha PostgreSQL C extension exposing Choice, Noul, Score, and batched judgments from SQL.
+- [Paper Radar](https://github.com/Eliot5566/JEV-Paper-Radar) - Daily arXiv/bioRxiv radar that asks Jev one Noul per plain-English interest for every new paper, then publishes a must-read page and RSS feed from a fork-and-go GitHub Action; 501 papers judged in 33s for $0.0196, with a `calibrate` command that measures calibration on your own labels.
 - [tax-doc-classifier](https://github.com/kyotofin/tax-doc-classifier) - Classifies text-bearing PDF pages into IRS form and page-kind candidates with a confidence gate; document triage, not tax advice, and scanned pages need OCR.
 - [tiershift](https://github.com/iamvatsalpatel/tiershift) - Policy-bounded model routing for TypeScript and Python.
 - [typesafe-jev-workflow](https://github.com/GiesN/typesafe-jev-workflow) - LangGraph email-intent workflow using a typed Jev choice.
