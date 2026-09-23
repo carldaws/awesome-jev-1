@@ -286,6 +286,7 @@ Results belong to each project's dataset, prompts, model version, and measuremen
 
 - [Janus](https://github.com/FirasSX914/Janus) - Measures when to use Jev versus other models and routes accordingly.
 - [Jev Calibration Study (Nautilus Assay)](https://github.com/chunxiaoxx/nautilus-compass/blob/main/docs/wall/GENESIS_HOSTED_JEV_CALIBRATION.md) - Independent, reproducible calibration evaluation of hosted Jev (240 seeded questions, all raw artifacts published): accuracy 92.2%, Brier 0.048, ECE 0.041 overall.
+- [Jev Does Not Play Dice](https://github.com/KantaHayashiAI/jev-does-not-play-dice) - Calibration check on inputs with known true probabilities (hidden fair dice, coins, four-way spinners) and on synthetic forecast documents; Choice put 82.9% on face 1 across all 400 die rolls at 19.0% accuracy and turned a stated 30% shortage risk into 5.3%, while Noul returned 26.7%; raw responses and offline recomputation in the repo, run in launch week against jev-1.13.0. [Write-up](https://kantahayashiai.github.io/posts/jev-does-not-play-dice/).
 - [Jev IDS](https://github.com/jev-ids/jev-ids) - Intrusion-detection prototype where one Noul (attack or not) and a five-way Choice (category) are asked per NSL-KDD network flow and Python applies a 0.5 cut; ships a 300-flow pilot comparison against GPT-5.6 Luna and a few-shot Random Forest with latency, cost, and novel-attack recall, and lists its limits (pilot split, gateway retries, list-price costs).
 - [jev-behavior-study](https://github.com/RINNECODER/jev-behavior-study) - Independent synthetic-task study of Jev 1.13.0 framing sensitivity and failures, with raw responses and offline report checks.
 - [jev-benchmarks](https://github.com/AbdelStark/jev-benchmarks) - Reproducible evaluation for calibration, selective risk, and latency.
@@ -341,4 +342,3 @@ Built something with Jev? Read [CONTRIBUTING.md](CONTRIBUTING.md) and open a pul
 ## Acknowledgements
 
 Discovery used public GitHub search, TypeSafe and provider documentation, and the related community lists above. Descriptions added in this refresh were checked against pinned project READMEs and relevant source files; the latest research notes record those sources, and the [September 19 notes](research/2026-09-19.md) preserve the preceding review. Inclusion is not an endorsement by TypeSafe AI or a claim of production readiness.
-
