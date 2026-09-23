@@ -314,7 +314,7 @@ Results belong to each project's dataset, prompts, model version, and measuremen
 
 ## Guides and cookbooks
 
-- [Augustus](https://github.com/24601/Augustus) - Design-judgment skill for the decision-model class; TypeSafe Jev (System One) is the dominant exemplar for composition, question design, and validation gates.
+- [Augustus](https://github.com/24601/Augustus) - Independent agent skill for finding, building, evaluating, and improving decision-model systems through composition rules, evaluation harnesses, and bounded prompt/program optimization; TypeSafe Jev is the default hosted exemplar.
 - [Building with Jev](https://github.com/dbreunig/building-with-jev-skill) - Community agent skill covering question design, state preparation, confidence thresholds, and debugging decisions.
 - [Classifying RAG passages](https://docs.typesafe.ai/cookbooks/classifying_rag_passages) - Official example of judging retrieved passages before passing them to an answering model.
 - [Date extraction](https://docs.typesafe.ai/cookbooks/date_extraction_cookbook) - Official pattern separating typed extraction from date validation and arithmetic in code.
