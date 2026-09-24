@@ -90,6 +90,7 @@ Upstream framework integrations with inspectable Jev implementations. Presence o
 - [LangChain](https://github.com/langchain-ai/langchain) - Python `TypeSafeClassifier` Runnable with batched typed questions plus model-routing and risky-tool middleware.
 - [LangChain.js](https://github.com/langchain-ai/langchainjs) - JavaScript/TypeScript classifier Runnable and middleware for bounded routing and tool-call checks.
 - [LiteLLM](https://github.com/BerriAI/litellm) - Jev-backed complexity routing and an optional relevance guardrail for compacting tool results before they return to an agent.
+- [Milvus Model](https://github.com/milvus-io/milvus-model) - Python reranker adapter that sends candidate documents as Jev Noul questions in one request, then sorts the returned scores and preserves original document indices.
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai) - TypeSafe model provider that derives Jev questions from Pydantic output types and supports typed routing and fallback workflows.
 - [Rig](https://github.com/0xPlaygrounds/rig) - Rust `rig-typesafeai` crate with typed Choice, Score, and Noul queries, response validation, examples, and fixtures.
 - [TanStack AI](https://github.com/TanStack/ai) - `@tanstack/ai-typesafe` adapter exposing typed Boolean, Choice, and Score decisions through TanStack AI's `decide()` API.
