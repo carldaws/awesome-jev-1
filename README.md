@@ -1,15 +1,13 @@
 # Awesome Jev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> [!TIP]
-> **New: [Ollaya](https://ollaya.dev) runs open decision models locally, behind a Jev-compatible API.**
-> Pull Laya, decider, NLI, or GLiClass by name and serve them from one local daemon that speaks TypeSafe's `/v1/systemone` wire format. The official SDK works unchanged when you set `TYPESAFE_BASE_URL=http://localhost:11435`, so you can prototype and run decisions on your own hardware. Built by the maintainer of this list.
->
-> ```sh
-> curl -fsSL https://ollaya.dev/install.sh | sh
-> ollaya run laya --preset triage "I was charged twice for my subscription this month and want a refund."
-> ```
->
-> [Website](https://ollaya.dev) · [GitHub](https://github.com/ollaya-dev/ollaya) · [Models](https://ollaya.dev/search) · [Docs](https://ollaya.dev/docs) · [Hugging Face](https://huggingface.co/ollaya-dev)
+<p align="center">
+  <a href="https://ollaya.dev"><img src="assets/ollaya.png" alt="Ollaya: run decision models locally. Typed questions in, calibrated answers out, in milliseconds." width="100%"></a>
+</p>
+
+<p align="center">
+  <b>New:</b> <a href="https://ollaya.dev">Ollaya</a> runs open decision models locally behind a Jev-compatible API.<br>
+  <a href="https://ollaya.dev">Website</a> · <a href="https://github.com/ollaya-dev/ollaya">GitHub</a> · <a href="https://ollaya.dev/search">Models</a> · <a href="https://ollaya.dev/docs">Docs</a>
+</p>
 
 > A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for fast, typed, probabilistic decisions.
 
