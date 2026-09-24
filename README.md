@@ -1,5 +1,16 @@
 # Awesome Jev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+> [!TIP]
+> **New: [Ollaya](https://ollaya.dev) runs open decision models locally, behind a Jev-compatible API.**
+> Pull Laya, decider, NLI, or GLiClass by name and serve them from one local daemon that speaks TypeSafe's `/v1/systemone` wire format. The official SDK works unchanged when you set `TYPESAFE_BASE_URL=http://localhost:11435`, so you can prototype and run decisions on your own hardware. Built by the maintainer of this list.
+>
+> ```sh
+> curl -fsSL https://ollaya.dev/install.sh | sh
+> ollaya run laya --preset triage "I was charged twice for my subscription this month and want a refund."
+> ```
+>
+> [Website](https://ollaya.dev) · [GitHub](https://github.com/ollaya-dev/ollaya) · [Models](https://ollaya.dev/search) · [Docs](https://ollaya.dev/docs) · [Hugging Face](https://huggingface.co/ollaya-dev)
+
 > A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for fast, typed, probabilistic decisions.
 
 Jev takes program state plus typed questions and returns constrained answers with probabilities. It is designed for software decisions such as classification, routing, scoring, ranking, verification, and guardrails, rather than free-form text generation.
@@ -110,6 +121,7 @@ Community-maintained clients and tools; official TypeSafe SDKs are listed above.
 - [kojev](https://github.com/ItisNoMatter/kojev) - Kotlin Multiplatform client that answers Choice and Score questions as the caller's own enums; thresholds and routing stay in the caller's code.
 - [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) - Laravel integration with typed responses, async requests, and testing fakes.
 - [neurolink](https://github.com/juspay/neurolink) - The pipe layer of an AI nervous system: TypeScript SDK connecting provider neurons — including TypeSafe Jev for `decide` — to an application across generate/stream/decide.
+- [Ollaya](https://github.com/ollaya-dev/ollaya) - Rust daemon and CLI that pulls open decision models (Laya, decider, NLI, GLiClass) by name and serves them locally behind TypeSafe-compatible `/v1/systemone`, `/v1/decisions`, and `/v1/models` endpoints, so existing Jev clients switch with `TYPESAFE_BASE_URL`; the `laya` router picks an English or multilingual checkpoint per request, and answers come from these open models, not from Jev.
 - [pytest-jev](https://github.com/allebee/pytest-jev) - pytest plugin where Jev decides whether each plain-English claim about a test's text holds, and the test passes only when every claim clears 0.8 (or stays at or below 0.2 for claims that must not hold), with Choice and Score answers compared by probability.
 - [ruby_decision_model](https://github.com/obie/ruby_decision_model) - Ruby client with standard-library transport for TypeSafe and OpenRouter decision endpoints.
 - [semdecide](https://github.com/sharziki/semdecide) - Typed semantic decisions for Unix pipelines and CI.
