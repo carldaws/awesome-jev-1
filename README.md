@@ -150,6 +150,7 @@ Source-reviewed experiments and integrations. A model judgment does not establis
 - [jev-review](https://github.com/devagrawal09/jev-review) - Staged code-review workflow with a local dashboard.
 - [jev-review MCP plugin](https://github.com/NiazMorshed2007/jev-review) - Local-first continuous software-quality review for coding agents.
 - [jev-router](https://github.com/gargpratyush/jev-router) - Chooses a model for each fresh Claude Code or Codex turn while wrapping the existing CLI.
+- [Codex Jev Router](https://github.com/suenot/codex-jev-router) - Uses Jev Choice and Noul decisions to select a Codex subagent model and reasoning effort; uncertain decisions fall back to Sol.
 - [JevRouter](https://github.com/BillionsBobby/JevRouter) - Routes agent requests across models, subagents, skills, MCP tools, CLIs, and plugins with Jev Choice decisions; the host filters by availability, permissions, risk, and confirmation before anything executes.
 - [jev-scout](https://github.com/kierandotai/jev-scout) - MCP server that scores an agent's every search query, result, and fetched page for relevance and credibility, with session budgets, SSRF-guarded fetching, and a live decision dashboard.
 - [jev-skill-router](https://github.com/shimo4228/jev-skill-router) - Claude Code plugin whose UserPromptSubmit hook asks Jev one `Choice` over the installed skill roster plus `Noul` gates, while code applies the thresholds and names at most one skill; it starts in a shadow mode that only logs the decision.
